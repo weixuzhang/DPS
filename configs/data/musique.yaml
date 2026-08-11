@@ -1,0 +1,7 @@
+defaults:
+  - base_data_config
+
+name: MuSiQue
+data_dir: ${oc.env:MUSIQUE_DATA_ROOT,./data/musique}
+num_samples: -1
+variation: direct_closed_book

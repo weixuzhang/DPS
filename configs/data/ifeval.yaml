@@ -1,0 +1,6 @@
+defaults:
+  - base_data_config
+
+name: IFEval
+data_dir: ${oc.env:IFEVAL_DATA_ROOT,./data/ifeval}
+num_samples: -1

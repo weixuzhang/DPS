@@ -1,0 +1,9 @@
+defaults:
+  - base_model_config
+
+name: ITI-LLaMA3-8b
+model_type: base
+configs:
+  model_name_or_path: jujipotle/honest_llama3_8B
+  max_seq_len: 4096
+  max_new_tokens: 12

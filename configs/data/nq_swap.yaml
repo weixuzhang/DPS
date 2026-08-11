@@ -1,0 +1,6 @@
+defaults:
+  - base_data_config
+
+name: NQSwap
+data_dir: ${oc.env:NQ_SWAP_DATA_ROOT,./data/nq_swap}
+num_samples: -1

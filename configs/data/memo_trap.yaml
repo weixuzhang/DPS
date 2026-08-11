@@ -1,0 +1,6 @@
+defaults:
+  - base_data_config
+
+name: MemoTrap
+data_dir: ${oc.env:MEMOTRAP_DATA_ROOT,./data/memo_trap}
+num_samples: -1

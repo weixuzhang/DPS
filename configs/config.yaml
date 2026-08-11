@@ -1,0 +1,16 @@
+defaults:
+  - base_config
+  - data: lamp_1
+  - data_loader: default
+  - model: llama3_8b_instruct
+  - decoder: dps
+  - _self_
+
+hydra:
+  output_subdir: null
+random_seed: 1234
+
+wandb_project: dps_anonymized
+wandb_entity: anonymous
+
+debug: true

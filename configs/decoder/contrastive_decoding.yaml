@@ -1,0 +1,9 @@
+defaults:
+  - base_decoder_config
+
+name: ContrastiveDecoding
+method: ContrastiveDecoding
+configs:
+  amateur_model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+  post_softmax: True
+  alpha: 0.5

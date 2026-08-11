@@ -1,0 +1,9 @@
+defaults:
+  - base_data_config
+
+name: LongLaMP_3
+data_dir: ${oc.env:LAMP_DATA_ROOT,./data/lamp}
+num_samples: -1
+retriever: bm25
+num_retrieve: 5
+max_prompt_length: 4096

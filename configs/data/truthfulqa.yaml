@@ -1,0 +1,6 @@
+defaults:
+  - base_data_config
+
+name: TruthfulQA
+data_dir: ${oc.env:TRUTHFULQA_DATA_ROOT,./data/truthfulqa}
+num_samples: -1

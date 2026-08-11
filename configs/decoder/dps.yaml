@@ -1,0 +1,13 @@
+defaults:
+  - base_decoder_config
+
+name: DPS
+method: DPS
+configs:
+  preference_heads_dir: ./artifacts/preference_heads/
+  num_preference_heads: 40
+  task: LaMP-1  # Will be overridden by data config
+  post_softmax: True
+  alpha_cap: null
+  scale_alpha: False
+  amateur_model_name_or_path: null

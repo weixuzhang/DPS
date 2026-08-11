@@ -1,0 +1,8 @@
+defaults:
+  - base_decoder_config
+
+name: DoLa
+method: DoLa
+configs:
+  dola_layers: low
+  post_softmax: True

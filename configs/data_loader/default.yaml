@@ -1,0 +1,4 @@
+batch_size: 1
+num_workers: 8
+drop_last: false
+pin_memory: false

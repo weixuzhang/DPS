@@ -1,0 +1,7 @@
+defaults:
+  - base_data_config
+
+name: XSum
+data_dir: ${oc.env:XSUM_DATA_ROOT,./data/xsum}
+num_samples: -1
+variation: default

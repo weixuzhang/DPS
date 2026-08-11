@@ -1,0 +1,8 @@
+defaults:
+  - base_decoder_config
+
+name: BaselineMaskedRetrievalHead
+method: BaselineMaskedRetrievalHead
+configs:
+  retrieval_heads_dir: ./artifacts/retrieval_heads/
+  num_retrieval_heads: 50

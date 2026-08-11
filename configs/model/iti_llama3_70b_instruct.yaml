@@ -1,0 +1,9 @@
+defaults:
+  - base_model_config
+
+name: ITI-LLaMA3-70b-Instruct
+model_type: instruct
+configs:
+  model_name_or_path: jujipotle/honest_llama3_70B_instruct
+  max_seq_len: 4096
+  max_new_tokens: 12

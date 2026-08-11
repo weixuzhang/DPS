@@ -1,0 +1,10 @@
+defaults:
+  - base_decoder_config
+
+name: DeCoReVanilla
+method: DeCoReVanilla
+configs:
+  retrieval_heads_dir: ./artifacts/retrieval_heads/
+  num_retrieval_heads: 50
+  alpha: 0.5
+  post_softmax: True
